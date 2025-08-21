@@ -26,6 +26,12 @@ function App() {
               <input type="button" value="9"/>
               <input type="button" value="*"/>
             </div>
+            <div>
+              <input type="button" value="4"/>
+              <input type="button" value="5"/>
+              <input type="button" value="6"/>
+              <input type="button" value="+"/>
+            </div>
           </form>
         </div>
       </div>
