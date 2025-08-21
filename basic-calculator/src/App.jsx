@@ -15,7 +15,10 @@ function App() {
               <input type='text'/>
             </div>
             <div>
-              <input type="button" />
+              <input type="button" value="AC"/>
+              <input type="button" value="C"/>
+              <input type="button" value="."/>
+              <input type="button" value="/"/>
             </div>
           </form>
         </div>
