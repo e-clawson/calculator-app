@@ -1,12 +1,19 @@
-# React + Vite
+# Calculator app 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+simple calculator application to provide practice/review in: 
+- basic functionality 
+- basic styling 
+- basic hosting 
 
-Currently, two official plugins are available:
+Special thank you to Code with Yousaf for the tutorial 
+https://www.youtube.com/watch?v=h6lVvsUkdjI 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# thoughts 
+this was a good practice, it was quick and simple, but now i'm wondering the following: 
+- is there a way to do this that uses less lines of code? / is there a simpler way to do this? 
+- this tutorial is from 2023 - are there new methods to do this? 
+- what should I use instead of eval? 
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# follow-up 
+- Host the app on github 
+- add a feature where it displays past calculations until you refresh? 

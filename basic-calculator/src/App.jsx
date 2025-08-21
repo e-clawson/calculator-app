@@ -42,7 +42,8 @@ function App() {
             <div>
               <input type="button" value="0" onClick={e => setValue(value + e.target.value)}/>
               <input type="button" value="00" onClick={e => setValue(value + e.target.value)}/>
-              <input type="button" value="=" className='equal'/>
+              <input type="button" value="=" className='equal' onClick={e => setValue(eval(value))}/>
+              {/* Yousaf notes - dont use eval in a real application because it is not secure - it does work really well though - follow-up study needed: why isn't it secure and what should we use instead? */}
             </div>
           </form>
         </div>
