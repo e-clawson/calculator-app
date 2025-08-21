@@ -1,3 +1,4 @@
+import React from 'react'
 import './App.css'
 
 function App() {
@@ -6,6 +7,15 @@ function App() {
     <>
       <div className='title-section'>
         <h1>Basic Calculator</h1>
+      </div>
+      <div className='container'>
+        <div className='calculator'>
+          <form>
+            <div>
+              <input type='text'/>
+            </div>
+          </form>
+        </div>
       </div>
 
     </>
