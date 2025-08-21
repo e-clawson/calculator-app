@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './App.css'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         <div className='calculator'>
           <form>
             <div className='display'>
-              <input type='text'value={value}/>
+              <input type='text' value={value}/>
             </div>
             <div>
               <input type="button" value="AC"/>
