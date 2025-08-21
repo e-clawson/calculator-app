@@ -14,6 +14,9 @@ function App() {
             <div>
               <input type='text'/>
             </div>
+            <div>
+              <input type="button" />
+            </div>
           </form>
         </div>
       </div>
