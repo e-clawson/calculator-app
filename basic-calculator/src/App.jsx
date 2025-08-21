@@ -11,7 +11,7 @@ function App() {
       <div className='container'>
         <div className='calculator'>
           <form>
-            <div>
+            <div className='display'>
               <input type='text'/>
             </div>
             <div>
