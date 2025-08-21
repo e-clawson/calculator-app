@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 
 function App() {
+  const [value, setValue] = useState('');
 
   return (
     <>
@@ -12,7 +13,7 @@ function App() {
         <div className='calculator'>
           <form>
             <div className='display'>
-              <input type='text'/>
+              <input type='text'value={value}/>
             </div>
             <div>
               <input type="button" value="AC"/>
@@ -21,7 +22,7 @@ function App() {
               <input type="button" value="/"/>
             </div>
             <div>
-              <input type="button" value="7"/>
+              <input type="button" value="7" onClick={e => setValue(value + e.target.value)}/>
               <input type="button" value="8"/>
               <input type="button" value="9"/>
               <input type="button" value="*"/>
