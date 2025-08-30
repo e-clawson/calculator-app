@@ -7,6 +7,13 @@ A simple calculator application to provide practice/review in:
 
 Special thank you to Code with Yousaf for the tutorial https://www.youtube.com/watch?v=h6lVvsUkdjI
 
+# To Install and Use: 
+
+- download code 
+- cd to basic-calculator
+- run 'npm install'
+- run 'npm run dev' 
+
 # thoughts
 this was a good practice, it was quick and simple, but now i'm wondering the following:
 
